@@ -1,0 +1,10 @@
+# Do not commit an test-report log files
+/build/test-reports/*
+# Ignore chromdriver logs
+/driver-logs/*
+# Ignore idea workspace
+/.idea/workspace.xml
+/test/screenshots-failures/*
+#ignore test result txt file
+/WDIO-result.txt
+node_modules
