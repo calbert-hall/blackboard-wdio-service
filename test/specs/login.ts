@@ -64,7 +64,6 @@ describe('Ultra wdio', () => {
             await browser.eyesCheck('Landing Page', Target.region(detailsActions));
 
             //Navigate and open course
-            console.log("Course navigation");
             await BaseNavPage.navigateToBaseCourses();
             await BaseNavPage.openCourse();
 
